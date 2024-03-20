@@ -12,7 +12,7 @@ public class Server {
 
             while(true) {
                 Scanner sc = new Scanner(s.getInputStream());
-                String msg = sc.next();
+                String msg = sc.nextLine();
 
                 if(msg.equals("bye")) {
                     System.out.println("------------- Connection closed -------------");
